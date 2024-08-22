@@ -44,8 +44,7 @@ void setup() {
   GSheet.begin(CLIENT_EMAIL, PROJECT_ID, PRIVATE_KEY);
   long read_num = 0;
 
-  // Or begin with the Service Account JSON file
-  // GSheet.begin("path/to/serviceaccount/json/file", esp_google_sheet_file_storage_type_flash /* or esp_google_sheet_file_storage_type_sd */);
+  
 
 }
 
