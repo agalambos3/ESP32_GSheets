@@ -7,16 +7,13 @@
 // Service Account's private key
 const char PRIVATE_KEY[] PROGMEM = API_KEY;
 
-
 void tokenStatusCallback(TokenInfo info);
 
 void setup() {
-
-  // put your setup code here, to run once:
+ 
   Serial.begin(115200);
   Serial.println();
   Serial.println();
-
   GSheet.printf("ESP Google Sheet Client v%s\n\n", ESP_GOOGLE_SHEET_CLIENT_VERSION);
 
   WiFi.setAutoReconnect(true);
